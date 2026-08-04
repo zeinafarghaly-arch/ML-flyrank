@@ -1,0 +1,12 @@
+{
+  "precision_at_500_model": 0.528,
+  "base_rate": 0.517,
+  "rows_in_queue": 7115,
+  "action_counts": {
+    "Monitor": 4346,
+    "Refresh and review CTR": 1922,
+    "Refresh": 439,
+    "Expand and refresh": 344,
+    "Human data check": 64
+  }
+}
