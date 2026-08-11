@@ -1,0 +1,23 @@
+{
+  "precision_at_500_model": 0.528,
+  "precision_at_500_baseline": 0.49,
+  "base_rate": 0.517,
+  "rows_in_queue": 7115,
+  "test_clients": 8,
+  "train_clients": 24,
+  "action_counts": {
+    "Monitor": 4346,
+    "Refresh and review CTR": 1922,
+    "Refresh": 439,
+    "Expand and refresh": 344,
+    "Human data check": 64
+  },
+  "top_coefficients": {
+    "content_age_days": -0.396,
+    "days_since_last_update": 0.237,
+    "ctr": -0.202,
+    "engagement_rate": -0.015,
+    "search_volume": 0.008,
+    "avg_position": 0.002
+  }
+}
