@@ -322,19 +322,8 @@ footer a{color:var(--slate);}
   <div class="abstract">
     <span class="label">Abstract</span>
     <p>
-      Content teams can't check every page on a client's site every month by hand. So this paper
-      asks a simple question: can a clear, easy-to-understand model rank pages by how urgently
-      they need a refresh — better than a hand-made rule can? Using an anonymized slice of 30,000
-      pages from FlyRank's real search data (32 clients with hidden names, over a rolling 90-day
-      window), I trained a simple model (logistic regression) using six features. I tested it
-      against a real "traffic is declining" label, and checked it fairly by making sure no
-      client's pages showed up in both the training data and the test data. The model scored
-      <strong>0.528</strong> on Precision@500, compared to <strong>0.490</strong> for the
-      rule-based method and <strong>0.517</strong> for a random guess — a small but real
-      improvement that holds up even after a close check for data leaks. The result shows the
-      ranked list is useful as a shortlist for a human reviewer, with reasons attached — not as a
-      tool that decides on its own.
-    </p>
+FlyRank content teams may have many pages to review, but limited time to decide which pages deserve attention first. This paper asks whether a simple machine-learning model can use observed search and engagement signals to rank pages that may need a content refresh, and whether it can improve on a simple rule-based approach. Using an anonymized sample of 30,000 content pages from 32 pseudonymized clients over a rolling 90-day window, I trained a Logistic Regression model using six non-leaking features. I evaluated it on a client-grouped holdout set using Precision@500. The model scored <strong>0.528</strong>, compared with <strong>0.490</strong> for the rule-based baseline and <strong>0.517</strong> for the test-set base rate. The improvement is small, but it suggests that a ranked shortlist can provide useful decision support for human content review. It should not be treated as an automatic system for deciding which pages must be refreshed.
+</p>
   </div>
 </section>
 
